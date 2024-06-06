@@ -25,15 +25,11 @@ public class Studentgrade {
             switch(i) {
 
                 case "1":
-
                     String ss = input.next();
                     int ii = input.nextInt();
                     add(name , grade, ss,ii);
                     break;
-
                 case "2":
-
-                    //x=false;
                     show(name, grade);
                     break;
                 case "3":
